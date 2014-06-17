@@ -3,7 +3,7 @@
 # command line argument for SWC bootcamp
 # UC Davis - Davis, CA
  
-.libPaths("C:/Users/SDSC/Documents/R/win-library/3.1")
+.libPaths("C:/Users/Dee Dee/Documents/R/win-library/3.1")
  
 # Load libraries
 require(ggplot2)
