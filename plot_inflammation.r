@@ -2,7 +2,8 @@
 # Script to make figure with ggplot from
 # command line argument for SWC bootcamp
 # UC Davis - Davis, CA
- 
+# Here's a comment 
+
 .libPaths("C:/Users/Dee Dee/Documents/R/win-library/3.1")
  
 # Load libraries
