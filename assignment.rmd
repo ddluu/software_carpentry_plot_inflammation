@@ -1,0 +1,10 @@
+#Report
+
+The first thing I need to do is pick 3 countries from gapminder.txt
+
+```{r}
+gapminder <- read.delim("gapminder.txt")
+countries <- subset(gapminder, country == "Afghanistan" | country == "Albania" | country == "Egypt")
+levels(gapminder$country)
+```
+
