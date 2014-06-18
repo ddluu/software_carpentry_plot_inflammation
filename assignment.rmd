@@ -1,10 +1,20 @@
 #Report
 
-The first thing I need to do is pick 3 countries from gapminder.txt
+The first thing I need to do is pick 3 countries from gapminder.txt and select all data for those countries
 
 ```{r}
 gapminder <- read.delim("gapminder.txt")
 countries <- subset(gapminder, country == "Afghanistan" | country == "Albania" | country == "Egypt")
 levels(gapminder$country)
+```
+
+Use ggplot to make three scatter plots (one for each country) that has year on the x-axis and GDP on the y axis. Describe any trends you see for each country.
+
+```{r}
+install.packages("ggplot2")
+library(ggplot2)
+install.packages("reshape2")
+library(reshape2)
+ggplot(countries, aes(year, gdpPercap, color=country)) + geom_point()
 ```
 
